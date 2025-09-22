@@ -37,3 +37,8 @@ El proyecto esta basado en el template: **grayscale**
  - ng build compila la aplicación web para producción
  - npx http-server -p 8080 -c-1 dist/segundo_examen_David_S_Mamani_Gutierrez/browser para probar la aplicacion web
  - Verificacion: Abrir DevTools → Application → Service Workers → marcar Offline → recargar.
+
+ **Notificacion local desde la aplicacion  web**
+  - se implmento los 2 botones requeridos
+  - se logro que el boton permitir notificacion haga emerger la alerta para **permitir** o **bloquear** notificaciones
+  - al permitir las notificacioes el boton **probar notificacion** hace que emerja una notificación
