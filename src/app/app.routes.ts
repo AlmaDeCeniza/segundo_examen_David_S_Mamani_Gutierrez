@@ -16,8 +16,9 @@ export const routes: Routes = [
       {
         path: 'ui', 
         component: Ui,
-        title: 'UI'
-      }
+        title: 'ui'
+      },
+   
     ]
   }
 ];
