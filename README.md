@@ -31,3 +31,9 @@ El proyecto esta basado en el template: **grayscale**
 
 **PWA**
  - se agrego el **pwa** ng add @angular/pwa --project segundo_examen_David_S_Mamani_Gutierre
+
+**OFFLINE**
+ - se logro hacer que la pagina recargara sin conexion "apenas"
+ - ng build compila la aplicación web para producción
+ - npx http-server -p 8080 -c-1 dist/segundo_examen_David_S_Mamani_Gutierrez/browser para probar la aplicacion web
+ - Verificacion: Abrir DevTools → Application → Service Workers → marcar Offline → recargar.
